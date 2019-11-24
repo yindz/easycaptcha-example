@@ -1,0 +1,13 @@
+server:
+  port: 12333
+
+spring:
+  thymeleaf:
+    cache: false
+
+captcha:
+  enabled: true
+  random-bg-color: true
+  draw-noise: true
+  font-name: D:\tmp\SourceHanSansCN\\SourceHanSansCN-Regular.ttf
+  font-size: 30
