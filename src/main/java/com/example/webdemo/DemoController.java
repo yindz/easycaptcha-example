@@ -40,7 +40,7 @@ public class DemoController {
         //采用随机字符
         setImageSrc(modelMap, captchaHelper.drawRandomAlphanumeric(false, 4), "imgAddr3");
 
-        //采用随机字符
+        //采用随机数学算式
         setImageSrc(modelMap, captchaHelper.drawRandomMathEquation(), "imgAddr4");
         return "image";
     }
